@@ -7,6 +7,7 @@ public class App {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.lhx.spring.kuozhan2");
 		System.out.println(context.getBean("person1"));
 		context.getBeansOfType(Person.class).values().forEach(System.out::println);
+		
 		context.close();
 	}
 }
