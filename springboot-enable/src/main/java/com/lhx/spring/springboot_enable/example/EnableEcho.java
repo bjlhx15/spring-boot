@@ -1,4 +1,4 @@
-package com.lhx.spring.springboot_enable;
+package com.lhx.spring.springboot_enable.example;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -11,8 +11,7 @@ import org.springframework.context.annotation.Import;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-//@Import(MyImportSelector2.class)
-@Import(MyImportBeanDefinitionRegistrar.class)
-public @interface EnableLog {
-	String name();
+@Import(EchoImportBeanDefinitionRegistrar.class)
+public @interface EnableEcho {
+	String[] packages();
 }
