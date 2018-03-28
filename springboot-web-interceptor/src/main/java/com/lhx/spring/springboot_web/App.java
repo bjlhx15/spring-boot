@@ -3,7 +3,6 @@ package com.lhx.spring.springboot_web;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration;
-import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication(exclude=ErrorMvcAutoConfiguration.class)
 public class App {

@@ -4,7 +4,6 @@ import org.springframework.boot.web.servlet.ErrorPage;
 import org.springframework.boot.web.servlet.ErrorPageRegistrar;
 import org.springframework.boot.web.servlet.ErrorPageRegistry;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Component;
 
 //@Component  //测试全局的县注释掉
 public class CommonErrorPageRegistry implements ErrorPageRegistrar {
