@@ -9,7 +9,6 @@ import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletCont
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomizer;
 import org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainerFactory;
-import org.springframework.stereotype.Component;
 
 //@Component //暂时注释测试另一个方式
 public class MyEmbeddedServletContainerCustomizer implements EmbeddedServletContainerCustomizer {
