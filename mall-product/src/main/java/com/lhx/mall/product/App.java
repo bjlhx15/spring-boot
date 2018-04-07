@@ -19,6 +19,6 @@ public class App {
 		// product.setCreateTime(new Date());
 		productMapper.addProduct(product);
 		System.out.println("Hello World!");
-		context.close();
+		// context.close();
 	}
 }
