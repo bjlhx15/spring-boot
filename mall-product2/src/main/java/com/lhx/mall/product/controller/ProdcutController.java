@@ -48,10 +48,8 @@ public class ProdcutController {
 		Integer res = productMapper.deleteById(id);
 		return res == 1 ? new Response("200", "Ok") : new Response("500", "Fail");
 	}
-	
 	@GetMapping("/soa/address")
 	public Response address() {
-		return new Response("200", "Ok", "127.0.0.1:8080");
+		return new Response("200", "Ok", "127.0.0.1:9090");
 	}
-
 }
